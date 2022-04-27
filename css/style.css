@@ -9,8 +9,9 @@
 li{
     list-style: none;
 }
-h1{
-    text-align: center;
+h2{
+    position: relative;
+    left: 32%;
 }
 .student-profile .card {
     border-radius: 10px;

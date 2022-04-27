@@ -5,13 +5,14 @@
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
  */
 :root {
-  --blue: #007bff;
+  --blue: #143F6B;
+  --cream : #e2d784 ;
   --indigo: #6610f2;
   --purple: #6f42c1;
   --pink: #e83e8c;
-  --red: #dc3545;
+  --red: #F55353;
   --orange: #fd7e14;
-  --yellow: #ffc107;
+  --dyellow: #FEB139;
   --green: #28a745;
   --teal: #20c997;
   --cyan: #17a2b8;
@@ -22,7 +23,7 @@
   --secondary: #6c757d;
   --success: #28a745;
   --info: #17a2b8;
-  --warning: #ffc107;
+  --lyellow: #F6F54D;
   --danger: #dc3545;
   --light: #f8f9fa;
   --dark: #343a40;
@@ -33,6 +34,18 @@
   --breakpoint-xl: 1200px;
   --font-family-sans-serif: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   --font-family-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+}
+.bg-dblue{
+  background-color:#062630 ;
+}
+.bg-lblue{
+  background-color:#05595b ;
+}
+.bg-cream{
+  background-color:#e2d784 ;
+}
+.bg-lyellow{
+  background-color:#F6F54D ;
 }
 
 *,
@@ -3880,6 +3893,8 @@ input[type="button"].btn-block {
 .nav-link {
   display: block;
   padding: 0.5rem 1rem;
+  font-size: 19px;
+  font-weight: 500;
 }
 
 .nav-link:hover, .nav-link:focus {
